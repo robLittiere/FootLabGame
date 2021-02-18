@@ -12,6 +12,80 @@ font-size: xx-large;
 color: aliceblue;
 }
 
+.game-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 63%;
+    width: 70%;
+}
+
+
+.grid{
+    width : 600px;
+    height: 200px;
+    margin-top: 4em;
+    margin-left: 6em;
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto
+}
+
+.answer{
+    width: 30%;
+    height: 50%;
+    background-color: rgb(69, 187, 69);
+    border: 2px groove black;
+    box-shadow: 0 5px 10px rgb(0, 0, 25);
+}
+
+.gif-container{
+    position: absolute;
+    margin-top: 14em;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-answer{
+    width: 20%;
+    height: 20%;
+
+}
+
 
 .btnjouer {
     display: block;
@@ -31,6 +105,7 @@ color: aliceblue;
                                       rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-top: 20px;            
 }
 
 .btnjouer:hover {
@@ -41,3 +116,4 @@ color: aliceblue;
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
+
